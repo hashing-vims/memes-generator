@@ -1,0 +1,43 @@
+.mg-container {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.mg-container-header {
+  background-color: aqua;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.mg-container-body {
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  min-height: 90vh;
+}
+
+.control-panel-left {
+  background-color: purple;
+
+  width: 40%;
+  border-right: 2px solid gray;
+}
+
+.preview-window-right {
+  background-color: red;
+
+  width: 60%;
+}
+
+.control-panel-main {
+}
+
+.cp-main-text {
+}
+.cp-main-body {
+}
